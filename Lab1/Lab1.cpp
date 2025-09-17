@@ -1,8 +1,15 @@
 ﻿
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double a, b;
+    cin >> a >> b;
+
+    cout << "a + b = " << a + b << endl;
+    cout << "a * b = " << a * b << endl;
+    
+    
 }
 
